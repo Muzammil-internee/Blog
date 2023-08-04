@@ -1,0 +1,24 @@
+.image {
+    margin: 0;
+    padding: 0;
+}
+.img-tag{
+    height: 1000px;
+}
+
+.heading {
+    width: 40%;
+    height: 100px;
+    background: rgb(0, 0, 0, .6);
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+}
+
+/* hr {
+    border: 2px solid rgb(0, 21, 255);
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+} */

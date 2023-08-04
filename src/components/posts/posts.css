@@ -1,0 +1,32 @@
+.postCard {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: rgb(48, 48, 48);
+  margin: 2vmax;
+  transition: all 0.5s;
+  padding-bottom: 0.5vmax;
+}
+
+.postCard :hover {
+  box-shadow: 0 0 5px rgba(15, 15, 15, 0.26);
+  transform: translateY(-1px);
+}
+
+.imgStyle {
+  height: 100%;
+  width: 100%;
+}
+
+.divStyle {
+  height: 10%;
+}
+
+
+.createPost {
+  width: 50%;
+  border: 1px solid #dddfe2;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+  border-radius: 8px;
+  padding: 30px;
+}
